@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* tudo em html que for id em css vai ser #
+   tudo em html que for class em css vai ser .
+*/
+body{
+   background-color:  #b8ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#408050;
+    
+}
+h2{
+    color: #23D550;
+}
+ #principal{
+    color: #dcfff3;
+    text-align: center;
+    background-color: #41768f;
+}
+.basico{
+ color: #015716;
+}
+.intermediario{
+  color: rgb(219, 243, 0);
+}
+.avançado{
+ color: rgb(175, 0, 0);
+}
+.lorem{
+    color: #015716;
+    font-size: 19px;
+}
+.marca{
+    background-color: rgb(180, 155, 92);
+}

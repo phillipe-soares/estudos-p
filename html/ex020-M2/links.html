@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALISADOS
+        No captulo 15 do curso em video vimos as:
+         . = class
+         # = id
+         : = pseudo-class
+         :: = pseudo-element
+         > clildren/filho
+         as pseudo-class:
+         hover,active,visited
+         pseudo-elements:
+         after, before
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(255, 5, 5);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: gray;
+        }  
+        .especial::before{
+            content: '[»]';
+            text-decoration: none;
+            font-weight: lighter;
+            color: darkgray;
+        }
+                .especial::after{
+            content: '[«]';
+            text-decoration: none;
+            font-weight: lighter;
+            color: darkgray;
+                }
+.especial{
+    background-color: rgb(228, 63, 63);
+}
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+<li><a href="https://gustavoguanabara.github.io">repositorio do github</a></li>
+<li><a href="https://www.youtube.com/@cursoemvideo"class="especial">Canal do Youtube</a></li>
+<li><a href="https://www.cursoemvideo.com/"class="especial">Site do curso em video</a></li>
+    </ul>
+</body>
+</html>
