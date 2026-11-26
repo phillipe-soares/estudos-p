@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Average&family=Bebas+Neue&family=Fredericka+the+Great&family=Kaushan+Script&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Playwrite+AR+Guides&family=Playwrite+IT+Trad:wght@100..400&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zeyada&display=swap');
 
+html,body{
+    min-height: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +25,7 @@ header > h1{
     font-family: "Passion One";
     font-size: 150px;
     padding-top: 50px ;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -33,7 +38,9 @@ header > p {
     font-weight: 900;
 }
 
-
+main{
+    background-color: rgb(255, 255, 236);
+}
 
 main p{
     font-family: 'Sriracha';
@@ -84,6 +91,7 @@ main p{
    padding-top: 10px;
    padding-bottom: 10px;
    font-size: 45px;
+
 }
 
 .p4{
